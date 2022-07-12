@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    height: 100vh;
+    box-shadow: 1px 0 15px silver;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    transition: all 0.3s ease;
+
+}
+
+.close {
+    transform: translateX(-100%);
+}
+.card{
+    transition: all 1.5s ease;
+}
+.toTop {
+    transform: translateY(-200%);
+}
